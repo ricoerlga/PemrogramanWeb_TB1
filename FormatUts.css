@@ -1,0 +1,70 @@
+.header {
+    background: black;
+    color: white; }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Merriweather', serif; }
+  
+  .wrapper {
+    display: block;
+    padding: 0 20px;
+    overflow: hidden; }
+  
+  .header .logo {
+    float: left;
+    width: 250px; }
+  .header .logo h1 {
+    margin: 0;
+    padding: 0; }
+  
+  .header .menu {
+    float: right; }
+  .header .menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0; }
+  .header .menu ul li {
+    float: left; }
+  .header .menu ul li a {
+    padding: 10px;
+    display: block;
+    font-weight: 300;
+    color: rgb(255, 238, 238); 
+    text-decoration: none;}
+  
+  body{
+    background: white;
+    color: #141414;
+  }
+  .foto{
+    display: block;
+    margin-left: 100px;
+    margin-right: auto;
+    margin-top: 100px;
+    margin-bottom: auto;
+    box-shadow: 5px 10px 10px black;
+    width: 300px;
+    height: 300px;
+    position: absolute;
+  }
+  .about{
+    margin-left: auto;
+    margin-right: 100px;
+    margin-top: 100px;
+    margin-bottom: auto;
+    background: transparent;
+    border-bottom: 5px 2px 8px rgba(0, 0, 0, 0.65);
+    height: 300px;
+    width: 600px;
+    box-shadow: 0px 1px 8px;
+    cursor: pointer;
+    color: black;
+    font-size: 15px;
+    text-align: center;
+    align-content: center;
+    float: right;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
